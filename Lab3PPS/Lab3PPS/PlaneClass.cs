@@ -7,7 +7,9 @@ namespace Lab3PPS
     
     class PlaneClass : Component
     {
-        static int lagplace = 300;
+        static int lagplace = 200;
+        int pilotsonboard=0;
+        int stuardsonboard = 0;
         private List<Component> components = new List<Component>();
 
         public PlaneClass(String name, int weight)
@@ -16,6 +18,33 @@ namespace Lab3PPS
         }
         public override void addHuman(Component component)
         {
+            if ((component.GetType().ToString() == "Lab3PPS.Pilot")&&(pilotsonboard<2)) //Сажаем пилотов
+            {
+                Console.WriteLine("Pilot is onboard");
+                components.Add(component);
+                pilotsonboard++;
+                return;
+            }
+            else if ((component.GetType().ToString() == "Lab3PPS.Pilot") && (pilotsonboard > 2))
+            {
+                Console.WriteLine("No need more pilots");
+                return;
+            }
+
+
+            if ((component.GetType().ToString() == "Lab3PPS.Stuardess") && (pilotsonboard < 6)) //Сажаем стюардесс
+            {
+                Console.WriteLine("Stuardess is onboard");
+                components.Add(component);
+                stuardsonboard++;
+                return;
+            }
+            else if ((component.GetType().ToString() == "Lab3PPS.Stuardess") && (stuardsonboard > 6))
+            {
+                Console.WriteLine("No need more Stuards");
+                return;
+            }
+
             Console.WriteLine("Passanger " + component.name+" with "+component.laggage+ " trying to board in " + this.name);
             if (laggage > 0) laggage--; //Проверка, влезает ли пассажир
             else
@@ -48,6 +77,11 @@ namespace Lab3PPS
                 components[i].print();
             }
         }
-
+        public Component getIntoThePlane()
+        {
+            Component eco = new PlaneClass("eco", 150);
+            for (int i = 0; i < laggage; i++) eco.addHuman(new Passanger("P" + i, i+10));
+            return eco;
+        }
     }
 }

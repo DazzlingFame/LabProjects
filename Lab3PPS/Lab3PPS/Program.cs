@@ -13,6 +13,7 @@ namespace Lab3PPS
             Component first = new PlaneClass("first",10);
             Component buis = new PlaneClass("buis",20);
             Component eco = new PlaneClass("eco",150);
+            Component cockpit = new PlaneClass("cockpit", 8);
             for (int i = 0; i < 10; i++)
             {
                 String pasname = "P" + i;

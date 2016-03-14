@@ -10,17 +10,22 @@ namespace Lab3PPS
     {
         static void Main(string[] args)
         {
-            Component first = new PlaneClass("first",100);
-            Component buis = new PlaneClass("buis",150);
-            Component eco = new PlaneClass("eco",50);
-            Component ecopass = new Passanger("Ivanov",15);
-            eco.addHuman(ecopass);
+            Component first = new PlaneClass("first",10);
+            Component buis = new PlaneClass("buis",20);
+            Component eco = new PlaneClass("eco",150);
             for (int i = 0; i < 10; i++)
             {
                 String pasname = "P" + i;
                 Component art = new Passanger(pasname, 10);
                 eco.addHuman(art);
             }
+            for (int i = 0; i < 10; i++)
+            {
+                String pasname = "P" + i;
+                Component art = new Passanger(pasname, 10);
+                buis.addHuman(art);
+            }
+                buis.print();
                 eco.print();
         }
     }

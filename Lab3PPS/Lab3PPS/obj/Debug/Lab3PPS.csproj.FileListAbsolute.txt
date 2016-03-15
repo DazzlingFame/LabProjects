@@ -1,6 +1,0 @@
-c:\users\glory\documents\visual studio 2013\Projects\Lab3PPS\Lab3PPS\bin\Debug\Lab3PPS.exe.config
-c:\users\glory\documents\visual studio 2013\Projects\Lab3PPS\Lab3PPS\obj\Debug\Lab3PPS.csprojResolveAssemblyReference.cache
-C:\Users\Glory\documents\visual studio 2013\Projects\Lab3PPS\Lab3PPS\bin\Debug\Lab3PPS.exe
-C:\Users\Glory\documents\visual studio 2013\Projects\Lab3PPS\Lab3PPS\bin\Debug\Lab3PPS.pdb
-C:\Users\Glory\documents\visual studio 2013\Projects\Lab3PPS\Lab3PPS\obj\Debug\Lab3PPS.exe
-C:\Users\Glory\documents\visual studio 2013\Projects\Lab3PPS\Lab3PPS\obj\Debug\Lab3PPS.pdb

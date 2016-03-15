@@ -5,7 +5,7 @@ public class MoodFinder {
 	public double moodFind(String text)
 	{
 		int a=0;
-		String badPattern = " ?[—с]амодовольн[оый][,. ] ?[“т]щеславн[оый][,. ]| ?[√г]луп[оый][,. ]| ?[Ќн]ечестн[оый] | ?[Ћл]жив[оый][,. ]| ?[ѕп]одл[оый][,. ]| ?[ к]оварн[оый][,. ]| ?[–р]ассе€нн[оый][,. ]| ?[“т]руслив[оый][,. ]";
+		String badPattern = " ?[—с]амодовольно?ы?й?[,. ]| ?[“т]щеславно?ы?й?[,. ]| ?[√г]лупо?ы?й?[,. ]| ?[Ќн]ечестно?ы?й?[,. ]| ?[Ћл]живо?ы?й?[,. ]| ?[ѕп]одло?ы?й?[,. ]| ?[ к]оварно?ы?й?[,. ]| ?[–р]ассе€нно?ы?й?[,. ]| ?[“т]руслив?о?ы?й?[,. ]";
 		
 		System.out.println(text);
 
@@ -15,19 +15,19 @@ public class MoodFinder {
 			a--;
 			System.out.print(text.substring(badM.start(), badM.end())+"*");	
 		}
-		String goodPattern = " ?[„ч]удо | ?[Ѕб]лагодар[ностью][,. ]| ?[Ћл]юбовь[,. ]| ?[ƒд]оброе[,. ]| ?[”у]спех[,. ]| ?[”у]дача| ?[‘ф]ортуна| ?[ѕп]оцелуй| ?[ќо]бъ€ти€| ?[¬в]осторг[,. ]| ?[ѕп]охвала[,. ]| ?[ћм]илосердие[,. ]| ?[ƒд]ар | ?[ѕп]одар[оки][,. ]| ?[—с]юрприз[,. ][,. ]| ?[—с]мех[,. ]| ?[—с]покойствие[,. ]| ?[¬в]езение | ?[„ч]удеса[,. ]";
+		String goodPattern = " ?[„ч]удо | ?[Ѕб]лагодар[ностью][,. ]| ?[Ћл]юбовь[,. ]| ?[ƒд]оброе[,. ]| ?[”у]спех[,. ]| ?[”у]дача| ?[‘ф]ортуна| ?[ѕп]оцелуй| ?[ќо]бъ€ти€| ?[¬в]осторг[,. ]| ?[ѕп]охвала[,. ]| ?[ћм]илосердие[,. ]| ?[ƒд]ар[,. ]| ?[ѕп]одаро?ки?[,. ]| ?[—с]юрприз[,. ]| ?[—с]мех[,. ]| ?[—с]покойствие[,. ]| ?[¬в]езение | ?[„ч]удеса[,. ]";
 		Pattern goodP = Pattern.compile(goodPattern);
 		Matcher goodM = goodP.matcher(text);
 		while(goodM.find()) {
 			a++;
 			System.out.print(text.substring(goodM.start(), goodM.end())+"*");	
 		}
-		double mood = a/text.length();
-		if ((mood<0.1)&&(mood>0.1)) System.out.println("Ќейтральный текст");
-		else if ((mood>0.1)&&(mood<0.7)) System.out.println("ѕоложительный текст");
-		else if (mood>0.7) System.out.println("ќчень положительный текст");
-		else if ((mood<-0.1)&&(mood>-0.7)) System.out.println("ќтрицательный текст");
-		else if (mood<0.7) System.out.println("ќчень отрицательный текст");
+		double mood = text.length()/a;
+		if ((mood<0.1)&&(mood>-10)) System.out.println("Ќейтральный текст");
+		else if ((mood>10)&&(mood<70)) System.out.println("ѕоложительный текст");
+		else if (mood>70) System.out.println("ќчень положительный текст");
+		else if ((mood<-10)&&(mood>-70)) System.out.println("ќтрицательный текст");
+		else if (mood<-70) System.out.println("ќчень отрицательный текст");
 		return mood;
 	}
 

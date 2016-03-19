@@ -23,17 +23,25 @@
 <br/><br/>
 <?php
 if ($_POST["select"]=="All") $quer="SELECT * FROM school.students";
+else
 if ($_POST["select"]=="Name") $quer="SELECT * FROM school.students WHERE Name= '".$_POST["message"]."'";
+else
 if ($_POST["select"]=="Secondname") $quer="SELECT * FROM school.students WHERE SecondName= '".$_POST["message"]."'";
+else
 if ($_POST["select"]=="Class") $quer="SELECT * FROM school.students WHERE Class= '".$_POST["message"]."'";
+else
 if ($_POST["select"]=="Sex") $quer="SELECT * FROM school.students WHERE Sex= '".$_POST["message"]."'";
+else
 if ($_POST["select"]=="ParentFIO") $quer="SELECT * FROM school.students WHERE ParentFIO= '".$_POST["message"]."'";
 $host='localhost';
 $user='user';
 $password='12345';
 $db='school';
 $my = new mysqli($host, $user, $password);
-$result = $my ->query($quer);
+$stat = $my->prepare('SELECT * FROM school.students WHERE Name =?');
+$stmt ->bind_param("s",'.$_POST["message"].');
+$result = $stmt->execute();
+//$result = $my ->query($quer);
 ?>
 <table border>
 <?php

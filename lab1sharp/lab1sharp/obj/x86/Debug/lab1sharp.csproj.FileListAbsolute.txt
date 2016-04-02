@@ -1,0 +1,27 @@
+H:\Second cours\C#\lab1sharp\lab1sharp\bin\Debug\lab1sharp.exe
+H:\Second cours\C#\lab1sharp\lab1sharp\bin\Debug\lab1sharp.pdb
+H:\Second cours\C#\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.exe
+H:\Second cours\C#\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.pdb
+C:\Users\Vilemaw\Desktop\u131127\Третий курс\2 семестр\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.exe
+C:\Users\Vilemaw\Desktop\u131127\Третий курс\2 семестр\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.pdb
+C:\Users\Vilemaw\Desktop\u131127\Третий курс\2 семестр\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\bin\Debug\lab1sharp.exe
+C:\Users\Vilemaw\Desktop\u131127\Третий курс\2 семестр\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\bin\Debug\lab1sharp.pdb
+C:\Users\Vilemaw\Desktop\u131127\Третий курс\2 семестр\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.csprojResolveAssemblyReference.cache
+H:\Третий курс\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.exe
+H:\Третий курс\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.pdb
+H:\Третий курс\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\bin\Debug\lab1sharp.exe
+H:\Третий курс\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\bin\Debug\lab1sharp.pdb
+H:\Третий курс\Проектир.и архитект.прогр.ср-в\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.csprojResolveAssemblyReference.cache
+Q:\Downloads\POlabs-master\POlabs-master\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.exe
+Q:\Downloads\POlabs-master\POlabs-master\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.pdb
+Q:\Downloads\POlabs-master\POlabs-master\lab1sharp\lab1sharp\bin\Debug\lab1sharp.exe
+Q:\Downloads\POlabs-master\POlabs-master\lab1sharp\lab1sharp\bin\Debug\lab1sharp.pdb
+Q:\Downloads\POlabs-master\POlabs-master\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.csprojResolveAssemblyReference.cache
+H:\ППС\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.exe
+H:\ППС\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.pdb
+H:\ППС\lab1sharp\lab1sharp\bin\Debug\lab1sharp.exe
+H:\ППС\lab1sharp\lab1sharp\bin\Debug\lab1sharp.pdb
+H:\ППС\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.csprojResolveAssemblyReference.cache
+Q:\Инст\6 семестр\ППС\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.exe
+Q:\Инст\6 семестр\ППС\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.pdb
+Q:\Инст\6 семестр\ППС\lab1sharp\lab1sharp\obj\x86\Debug\lab1sharp.csprojResolveAssemblyReference.cache

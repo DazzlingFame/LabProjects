@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lab1sharp.Driver">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.BoardAnyCar">
+    <Position X="1.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BoardAnyCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.BusDriver">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAgAAAgAAQQAAAAAAQAA=</HashCode>
+      <FileName>BusDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.TaxiDriver">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAgAAAgAAQQAAAAAAQAA=</HashCode>
+      <FileName>TaxiDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.BoardTaxi">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAgAAUAFAAAAAAAACAAAIqAA=</HashCode>
+      <FileName>BoardTaxi.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Passenger" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1sharp.BoardBus">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAgAAUAFAAAAAAAAAAQAIKAA=</HashCode>
+      <FileName>BoardBus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Passenger" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1sharp.Passenger">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.PassengerBuilder">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAEAA=</HashCode>
+      <FileName>PassengerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.TaxiPassBuilder">
+    <Position X="6.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAA=</HashCode>
+      <FileName>TaxiPassBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.BusPassBuilder">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="lab1sharp.PassengerBuilder" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="8.356" />
+        <Point X="8" Y="8.55" />
+        <Point X="9.062" Y="8.55" />
+        <Point X="9.062" Y="8.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAA=</HashCode>
+      <FileName>BusPassBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.Director">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.Adult" Collapsed="true">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Adult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.Child" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Child.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1sharp.Lgot" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Lgot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

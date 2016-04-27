@@ -1,0 +1,8 @@
+-classpath 'Q:\\Инст\\6 семестр\\Практикум по ПП\\lab6\\build\\classes\\main;Q:\\Инст\\6 семестр\\Практикум по ПП\\lab6\\build\\resources\\main'
+-d 'Q:\\Инст\\6 семестр\\Практикум по ПП\\lab6\\build\\docs\\javadoc'
+-doctitle 'PromProgLab5 1.0-SNAPSHOT API'
+-quiet 
+-windowtitle 'PromProgLab5 1.0-SNAPSHOT API'
+'Q:\\Инст\\6 семестр\\Практикум по ПП\\lab6\\src\\main\\java\\PromProgLab5\\Circle.java'
+'Q:\\Инст\\6 семестр\\Практикум по ПП\\lab6\\src\\main\\java\\PromProgLab5\\Main.java'
+'Q:\\Инст\\6 семестр\\Практикум по ПП\\lab6\\src\\main\\java\\PromProgLab5\\MyJPanel.java'

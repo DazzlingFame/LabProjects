@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1460609998621" analysisTimestamp="1460609998651" release="">
+  <Project projectName="">
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\test\PromProgLab5\CircleTest.class</Jar>
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\test\PromProgLab5\ClockUserTest.class</Jar>
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\test\PromProgLab5\IntegrationTest.class</Jar>
+    <AuxClasspathEntry>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\main</AuxClasspathEntry>
+    <AuxClasspathEntry>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\&#1051;&#1072;&#1073;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;&#1085;&#1072;&#1103; &#1088;&#1072;&#1073;&#1086;&#1090;&#1072; &#8470;5. &#1040;&#1074;&#1090;&#1086;&#1084;&#1072;&#1090;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103; &#1089;&#1073;&#1086;&#1088;&#1082;&#1080; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; Gradle. &#1058;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; JUnit\caches\modules-2\files-2.1\junit\junit\4.11\4e031bb61df09069aeb2bffb4019e7a5034a4ee0\junit-4.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\&#1051;&#1072;&#1073;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;&#1085;&#1072;&#1103; &#1088;&#1072;&#1073;&#1086;&#1090;&#1072; &#8470;5. &#1040;&#1074;&#1090;&#1086;&#1084;&#1072;&#1090;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103; &#1089;&#1073;&#1086;&#1088;&#1082;&#1080; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; Gradle. &#1058;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; JUnit\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <SrcDir>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\src\test\java\PromProgLab5\CircleTest.java</SrcDir>
+    <SrcDir>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\src\test\java\PromProgLab5\IntegrationTest.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Apr 2016 07:59:58 +0300" total_classes="3" referenced_classes="16" total_bugs="0" total_size="16" num_packages="1" java_version="1.8.0_60" vm_version="25.60-b23" cpu_seconds="4.77" clock_seconds="1.08" peak_mbytes="109.38" alloc_mbytes="1760.00" gc_seconds="0.02">
+    <PackageStats package="PromProgLab5" total_bugs="0" total_types="3" total_size="16">
+      <ClassStats class="PromProgLab5.CircleTest" sourceFile="CircleTest.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="PromProgLab5.ClockUserTest" sourceFile="ClockUserTest.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="PromProgLab5.IntegrationTest" sourceFile="IntegrationTest.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="193" invocations="339" avgMicrosecondsPerInvocation="570" maxMicrosecondsPerInvocation="20612" standardDeviationMircosecondsPerInvocation="1491"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="126" invocations="340" avgMicrosecondsPerInvocation="371" maxMicrosecondsPerInvocation="7841" standardDeviationMircosecondsPerInvocation="440"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="55" invocations="16" avgMicrosecondsPerInvocation="3457" maxMicrosecondsPerInvocation="14103" standardDeviationMircosecondsPerInvocation="5033"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="38" invocations="41" avgMicrosecondsPerInvocation="946" maxMicrosecondsPerInvocation="15788" standardDeviationMircosecondsPerInvocation="2596"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="37" invocations="306" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="2831" standardDeviationMircosecondsPerInvocation="257"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="32" invocations="16" avgMicrosecondsPerInvocation="2016" maxMicrosecondsPerInvocation="11822" standardDeviationMircosecondsPerInvocation="3085"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="31" invocations="5" avgMicrosecondsPerInvocation="6336" maxMicrosecondsPerInvocation="30688" standardDeviationMircosecondsPerInvocation="12177"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="23" invocations="39" avgMicrosecondsPerInvocation="592" maxMicrosecondsPerInvocation="4640" standardDeviationMircosecondsPerInvocation="781"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="16" invocations="16" avgMicrosecondsPerInvocation="1032" maxMicrosecondsPerInvocation="4544" standardDeviationMircosecondsPerInvocation="1418"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="15" invocations="16" avgMicrosecondsPerInvocation="950" maxMicrosecondsPerInvocation="8189" standardDeviationMircosecondsPerInvocation="2023"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

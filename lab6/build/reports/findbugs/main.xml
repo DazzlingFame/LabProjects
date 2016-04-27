@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1460609994195" analysisTimestamp="1460609994220" release="">
+  <Project projectName="">
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\main\PromProgLab5\Circle.class</Jar>
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\main\PromProgLab5\Main$1.class</Jar>
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\main\PromProgLab5\Main.class</Jar>
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\main\PromProgLab5\MyJPanel$1.class</Jar>
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\main\PromProgLab5\MyJPanel$2.class</Jar>
+    <Jar>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\build\classes\main\PromProgLab5\MyJPanel.class</Jar>
+    <SrcDir>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\src\main\java\PromProgLab5\Circle.java</SrcDir>
+    <SrcDir>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\src\main\java\PromProgLab5\Main.java</SrcDir>
+    <SrcDir>Q:\&#1048;&#1085;&#1089;&#1090;\6 &#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;\&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1091;&#1084; &#1087;&#1086; &#1055;&#1055;\lab6\src\main\java\PromProgLab5\MyJPanel.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Apr 2016 07:59:54 +0300" total_classes="6" referenced_classes="323" total_bugs="0" total_size="113" num_packages="1" java_version="1.8.0_60" vm_version="25.60-b23" cpu_seconds="12.81" clock_seconds="2.95" peak_mbytes="210.08" alloc_mbytes="1760.00" gc_seconds="0.06">
+    <PackageStats package="PromProgLab5" total_bugs="0" total_types="6" total_size="113">
+      <ClassStats class="PromProgLab5.Circle" sourceFile="Circle.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="PromProgLab5.Main" sourceFile="Main.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="PromProgLab5.Main$1" sourceFile="Main.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="PromProgLab5.MyJPanel" sourceFile="MyJPanel.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="PromProgLab5.MyJPanel$1" sourceFile="MyJPanel.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="PromProgLab5.MyJPanel$2" sourceFile="MyJPanel.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="536" invocations="1524" avgMicrosecondsPerInvocation="351" maxMicrosecondsPerInvocation="22369" standardDeviationMircosecondsPerInvocation="1159"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="326" invocations="323" avgMicrosecondsPerInvocation="1009" maxMicrosecondsPerInvocation="17460" standardDeviationMircosecondsPerInvocation="2199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="295" invocations="323" avgMicrosecondsPerInvocation="913" maxMicrosecondsPerInvocation="17748" standardDeviationMircosecondsPerInvocation="1844"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="184" invocations="722" avgMicrosecondsPerInvocation="255" maxMicrosecondsPerInvocation="2941" standardDeviationMircosecondsPerInvocation="336"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="91" invocations="1528" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="964" standardDeviationMircosecondsPerInvocation="46"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="88" invocations="386" avgMicrosecondsPerInvocation="230" maxMicrosecondsPerInvocation="15310" standardDeviationMircosecondsPerInvocation="845"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="87" invocations="323" avgMicrosecondsPerInvocation="269" maxMicrosecondsPerInvocation="8641" standardDeviationMircosecondsPerInvocation="627"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="78" invocations="323" avgMicrosecondsPerInvocation="243" maxMicrosecondsPerInvocation="18734" standardDeviationMircosecondsPerInvocation="1075"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="73" invocations="1478" avgMicrosecondsPerInvocation="49" maxMicrosecondsPerInvocation="2377" standardDeviationMircosecondsPerInvocation="122"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="67" invocations="323" avgMicrosecondsPerInvocation="207" maxMicrosecondsPerInvocation="10848" standardDeviationMircosecondsPerInvocation="1155"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="59" invocations="323" avgMicrosecondsPerInvocation="185" maxMicrosecondsPerInvocation="4548" standardDeviationMircosecondsPerInvocation="453"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="58" invocations="323" avgMicrosecondsPerInvocation="181" maxMicrosecondsPerInvocation="8890" standardDeviationMircosecondsPerInvocation="587"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

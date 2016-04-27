@@ -1,0 +1,32 @@
+import oracle.jrockit.jfr.FlightRecorder
+
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'findbugs'
+
+sourceCompatibility = 1.8
+mainClassName = "PromProgLab5.Main"
+
+run{
+   jvmArgs "-XX:+UnlockCommercialFeatures", "-XX:+FlightRecorder", "-XX:StartFlightRecording=duration=60s,filename=myrecording.jfr"
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+findbugs {
+    ignoreFailures = true
+    effort = "max"
+    reportLevel = "low"
+}
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
